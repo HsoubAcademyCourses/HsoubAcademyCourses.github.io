@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $('.project-thumbnail').hover(
+    $('.thumbnail2').hover(
         function(){
-            $(this).find('.thumbnail2').toggle("slide"); 
+            $(this).find('.caption2').toggle("slide"); 
             $(this).find('.project-category').toggle("slide");
         }
     )
